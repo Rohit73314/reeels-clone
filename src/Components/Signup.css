@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.signupwrapper{
+   display: flex;
+   justify-content: center;
+   
+   
+}
+.signupcard{
+    width: 30vw;
+    margin-top: 5%;
+ 
+}
+.insta-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top:3% 
+}
+.insta-logo img{
+    width: 17vw;
+}
+@media screen and (max-width:620px){
+    .signupcard{
+        width: 50%;
+    }
+    .insta-logo img{
+        height: auto;
+    }
+}

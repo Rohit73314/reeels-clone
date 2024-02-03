@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+
+}
+.loginwrapper{
+    display: flex;
+    justify-content: center;
+    
+    
+ }
+ .logincard{
+     width: 30vw;
+     margin-top: 10%;
+
+  
+ }
+ .insta-logo{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     margin-top:3% 
+ }
+ .insta-logo img{
+     width: 17vw;
+ }
+ .imgcard{
+    height: 590px;
+    width: 441px;
+    margin-top: 8vh;
+    position: relative;
+ }
+ .card{
+     height: 423px;
+     width: 241px;
+    position: absolute;
+    top: 93px;
+    left: 143px;
+ }
